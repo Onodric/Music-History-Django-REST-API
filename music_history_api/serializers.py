@@ -13,7 +13,18 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
 
     class Meta:
         model = User
-        fields = '__all__'        
+        fields = (
+            'url',
+            'first_name',
+            'last_name',
+            'username',
+            'email',
+            'is_active',
+            'is_staff',
+            'is_superuser',
+            'groups',
+            'last_login',
+            )        
 
 
 class GenreSerializer(serializers.HyperlinkedModelSerializer):
