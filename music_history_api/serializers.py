@@ -52,7 +52,7 @@ class SongSerializer(serializers.HyperlinkedModelSerializer):
         fields = '__all__'
 
 
-class AlbumSerializeer(serializers.HyperlinkedModelSerializer):
+class AlbumSerializer(serializers.HyperlinkedModelSerializer):
     """
     Class for data serialization of a specific Model: Album
 

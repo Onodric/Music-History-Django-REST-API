@@ -68,7 +68,7 @@ class Song(models.Model):
     title = models.CharField(max_length=100, blank=True, default='')
     release_date = models.DateField(auto_now_add=False)
     author = models.CharField(max_length=100, blank=True, default='')
-    duration = PositiveIntegerField()
+    duration = models.PositiveIntegerField()
     artist = models.ManyToManyField(Artist)
     genre = models.ForeignKey(Genre, related_name="genre")
 
@@ -82,7 +82,7 @@ class Song(models.Model):
         return self.title
 
     class Meta:
-        ordering = ('title', 'artist')
+        ordering = ('title',)
 
 
 class Album(models.Model):
@@ -98,8 +98,8 @@ class Album(models.Model):
     Author: Ben Marks
     """
     title = models.CharField(max_length=100, blank=True, default='')
-    disc_number = PositiveIntegerField()
-    disc_total = PositiveIntegerField()
+    disc_number = models.PositiveIntegerField()
+    disc_total = models.PositiveIntegerField()
     release_date = models.DateField(auto_now_add=False)
     songs = models.ManyToManyField(Song)
     label = models.CharField(max_length=100, blank=True, default='')
@@ -115,5 +115,3 @@ class Album(models.Model):
 
     class Meta:
         ordering = ('title',)
-
-
