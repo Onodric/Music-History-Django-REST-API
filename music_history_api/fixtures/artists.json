@@ -1,0 +1,36 @@
+[{
+  "model": "music_history_api.artist",
+  "pk": 1,
+  "fields": {
+    "name": "Daddy",
+    "date_formed": "1975-06-17"
+  }
+}, {
+  "model": "music_history_api.artist",
+  "pk": 2,
+  "fields": {
+    "name": "Kid Singers",
+    "date_formed": "2000-03-21"
+  }
+}, {
+  "model": "music_history_api.artist",
+  "pk": 3,
+  "fields": {
+    "name": "Phish",
+    "date_formed": "1983-08-24"
+  }
+}, {
+  "model": "music_history_api.artist",
+  "pk": 4,
+  "fields": {
+    "name": "AC/DC",
+    "date_formed": "1975-08-24"
+  }
+}, {
+  "model": "music_history_api.artist",
+  "pk": 5,
+  "fields": {
+    "name": "The Beatles",
+    "date_formed": "1961-08-24"
+  }
+}]

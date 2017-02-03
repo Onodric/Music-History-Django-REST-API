@@ -1,0 +1,43 @@
+[{
+  "model": "music_history_api.genre",
+  "pk": 1,
+  "fields": {
+    "name": "Jazz"
+  }
+}, {
+  "model": "music_history_api.genre",
+  "pk": 2,
+  "fields": {
+    "name": "Rock"
+  }
+}, {
+  "model": "music_history_api.genre",
+  "pk": 3,
+  "fields": {
+    "name": "Pop"
+  }
+}, {
+  "model": "music_history_api.genre",
+  "pk": 4,
+  "fields": {
+    "name": "Classical"
+  }
+}, {
+  "model": "music_history_api.genre",
+  "pk": 5,
+  "fields": {
+    "name": "Folk"
+  }
+}, {
+  "model": "music_history_api.genre",
+  "pk": 6,
+  "fields": {
+    "name": "Bluegrass"
+  }
+}, {
+  "model": "music_history_api.genre",
+  "pk": 7,
+  "fields": {
+    "name": "Metal"
+  }
+}]
