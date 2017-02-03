@@ -1,0 +1,56 @@
+[{
+  "model": "music_history_api.song",
+  "pk": 1,
+  "fields": {
+    "title": "A-B-C",
+    "release_date": "2017-02-02",
+    "author": "Traditional",
+    "duration": 120,
+    "genre": 5,
+    "artist": [1]
+  }
+}, {
+  "model": "music_history_api.song",
+  "pk": 2,
+  "fields": {
+    "title": "Six Little Ducks",
+    "release_date": "2017-02-02",
+    "author": "Traditional",
+    "duration": 154,
+    "genre": 5,
+    "artist": [2]
+  }
+}, {
+  "model": "music_history_api.song",
+  "pk": 3,
+  "fields": {
+    "title": "You Enjoy Myself",
+    "release_date": "1989-01-01",
+    "author": "Phish",
+    "duration": 817,
+    "genre": 2,
+    "artist": [3]
+  }
+}, {
+  "model": "music_history_api.song",
+  "pk": 4,
+  "fields": {
+    "title": "Taxman",
+    "release_date": "1967-01-01",
+    "author": "George Harrison",
+    "duration": 213,
+    "genre": 2,
+    "artist": [5]
+  }
+}, {
+  "model": "music_history_api.song",
+  "pk": 5,
+  "fields": {
+    "title": "Hell's Bells",
+    "release_date": "1983-01-01",
+    "author": "AC/DC",
+    "duration": 271,
+    "genre": 5,
+    "artist": [4]
+  }
+}]

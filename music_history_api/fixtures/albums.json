@@ -1,0 +1,45 @@
+[{
+  "model": "music_history_api.album",
+  "pk": 1,
+  "fields": {
+    "title": "Junta",
+    "disc_number": 1,
+    "disc_total": 1,
+    "release_date": "1989-01-01",
+    "label": "EMI",
+    "songs": [3]
+  }
+}, {
+  "model": "music_history_api.album",
+  "pk": 2,
+  "fields": {
+    "title": "Kids' Singing Songs",
+    "disc_number": 1,
+    "disc_total": 2,
+    "release_date": "2000-09-09",
+    "label": "Sucky",
+    "songs": [1, 2]
+  }
+}, {
+  "model": "music_history_api.album",
+  "pk": 3,
+  "fields": {
+    "title": "Back In Black",
+    "disc_number": 1,
+    "disc_total": 1,
+    "release_date": "1983-09-09",
+    "label": "Chrysalis",
+    "songs": []
+  }
+}, {
+  "model": "music_history_api.album",
+  "pk": 4,
+  "fields": {
+    "title": "Revolver",
+    "disc_number": 1,
+    "disc_total": 1,
+    "release_date": "1967-09-09",
+    "label": "Apple",
+    "songs": []
+  }
+}]
