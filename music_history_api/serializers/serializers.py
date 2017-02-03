@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import *
+from music_history_api.models import *
 from django.contrib.auth import models
 from django.contrib.auth.models import User
 

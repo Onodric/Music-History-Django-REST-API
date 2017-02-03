@@ -1,8 +1,8 @@
 from django.contrib import admin
-from . import models
+from .models import *
 # Register your models here.
 
-admin.site.register(models.Artist)
-admin.site.register(models.Album)
-admin.site.register(models.Song)
-admin.site.register(models.Genre)
+admin.site.register(artist_model.Artist)
+admin.site.register(album_model.Album)
+admin.site.register(genre_model.Genre)
+admin.site.register(song_model.Song)
