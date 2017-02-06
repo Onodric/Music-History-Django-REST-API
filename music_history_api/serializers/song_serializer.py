@@ -14,3 +14,4 @@ class SongSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = song_model.Song
         fields = '__all__'
+        depth = 1
