@@ -14,3 +14,5 @@ class AlbumSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = album_model.Album
         fields = '__all__'
+        depth = 2
+
